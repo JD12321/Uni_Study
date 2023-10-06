@@ -14,4 +14,4 @@ plt.plot(x_data, data_y)
 plt.plot(x_data, data_y2)
 plt.plot(x_data, data_y3)
 plt.show()
-![]
+![]![image](https://github.com/JD12321/1-2-ME/assets/127118453/77b9ecd3-8dbd-4670-b556-50add4e74d84)
