@@ -14,3 +14,4 @@ plt.plot(x_data, data_y)
 plt.plot(x_data, data_y2)
 plt.plot(x_data, data_y3)
 plt.show()
+![]
