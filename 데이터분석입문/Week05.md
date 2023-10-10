@@ -1,4 +1,4 @@
-1.
+1. 
 import matplotlib.pyplot as plt
 
 x_data = [1, 2, 3, 4, 5]
