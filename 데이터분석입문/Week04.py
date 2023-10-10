@@ -1,5 +1,5 @@
 [기온데이터_01.csv](https://github.com/JD12321/1-2-ME/files/12839925/_01.csv)
-'''
+
 import csv
 f = open('기온데이터_01.csv', encoding='UTF-8')
 data = csv.reader(f)
@@ -18,4 +18,3 @@ for row in data:
 f.close()
 
 print(f'기상 관측 아래 서울의 최저 기온이 가장 낮았던 날은 {min_data}로 {min_temp}도 였습니다.')
-'''
