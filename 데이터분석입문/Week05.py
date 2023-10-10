@@ -1,4 +1,4 @@
-1. '''
+1.
 import matplotlib.pyplot as plt
 
 x_data = [1, 2, 3, 4, 5]
@@ -14,12 +14,11 @@ plt.plot(x_data, data_y)
 plt.plot(x_data, data_y2)
 plt.plot(x_data, data_y3)
 plt.show()
-'''
 
 ![image](https://github.com/JD12321/1-2-ME/assets/127118453/77b9ecd3-8dbd-4670-b556-50add4e74d84)
 
 
-2. ''' 
+2.
 import csv
 import matplotlib.pyplot as plt
 
@@ -84,12 +83,11 @@ def show_chart(x_data, data1, data2):
 result = get_temp_data()
 show_chart(result['x_data'], result['max_data'], result['min_data'])
 show_chart([1,2,3,4,5], [10,20,30,40,50], [20,30,40,50,60])
-'''
 
 ![image](https://github.com/JD12321/1-2-ME/assets/127118453/03eaf0bd-dc3d-40ef-99d2-93237ee12790)
 
 
-3. '''
+3.
 import matplotlib.pyplot as plt
 import random
 
@@ -109,6 +107,5 @@ for x in range(10000):
 
 plt.hist(data)
 plt.show()
-'''
 
 ![image](https://github.com/JD12321/1-2-ME/assets/127118453/ce58e9b5-9784-4836-8a7b-c3deeceafff1)
