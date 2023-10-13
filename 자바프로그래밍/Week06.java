@@ -149,9 +149,9 @@ public class ch03 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		Random rd = new Random();
-
+		
 		System.out.println("== 좀비게임 시작 ==");
-
+		
 		int pl = 1;
 		int zbs[] = { 7, 15 };
 
@@ -192,27 +192,26 @@ public class ch03 {
 					else if (zbs[i] > 20)
 						zbs[i] = 20;
 				}
-				for (int i=0; i<zbs.length; i++) {
+				for (int i = 0; i < zbs.length; i++) {
 					if (zbs[i] == pl) {
 						System.out.println("\n좀비에게 잡혔습니다. 처음위치에서 다시 시작합니다.");
 						pl = 1;
-					} else if (pl > 19) {
-						System.out.println("\n미션 클리어!!! 목적지에 도착했습니다.");
-						break;
 					}
 				}
 
 				System.out.printf("\n위치|나: %d", pl);
-				for (int i=0; i<zbs.length;i++) {
+				for (int i = 0; i < zbs.length; i++) {
 					System.out.printf(", 좀비%d: %d", i, zbs[i]);
 				}
 				System.out.println();
-				
-				if (pl > 19)
+
+				if (pl > 19) {
+					System.out.println("\n미션 클리어!!! 목적지에 도착했습니다.");
 					break;
+				}
 			}
 		} while (true);
-	s.close();
+		s.close();
 	}
 }
 
