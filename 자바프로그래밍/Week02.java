@@ -1,4 +1,6 @@
-1. '''
+"""
+1.
+"""	
 package homework;
 
 import java.util.*;
@@ -18,9 +20,12 @@ public class TwoDice {
 	}
 
 }
-'''
 
-2. '''
+
+
+"""
+2.
+"""
 package homework;
 
 import java.util.*;
@@ -36,4 +41,3 @@ public class Wizard {
 	}
 
 }
-'''
