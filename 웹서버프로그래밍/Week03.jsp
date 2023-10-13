@@ -1,4 +1,6 @@
-1. '''
+"""
+1.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -15,9 +17,12 @@
 	%>
 </body>
 </html>
-'''
 
-2. '''
+
+
+"""
+2.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -34,9 +39,12 @@
 	<%= " 주 입니다." %>
 </body>
 </html>
-'''
 
-3. '''
+
+
+"""
+3.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -50,9 +58,12 @@
 	i = <%= ++i %>
 </body>
 </html>
-'''
 
-4. '''
+
+
+"""
+4.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -67,9 +78,12 @@
 	영어로 [<%= str[2] %>]이다.
 </body>
 </html>
-'''
 
-5. '''
+
+
+"""
+5.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -84,9 +98,12 @@
 	영어로 [<%= str[2] %>]이다.
 </body>
 </html>
-'''
 
-6. '''
+
+
+"""
+6.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -101,9 +118,12 @@
 	영어로 [<%= str[1] %>]이다.
 </body>
 </html>
-'''
 
-7. '''
+
+
+"""
+7.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -122,9 +142,12 @@
 	반지름이 <%= radius %>인 원의 면적은 <%= getArea(radius) %>이다.
 </body>
 </html>
-'''
 
-8. '''
+
+
+"""
+8.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -141,9 +164,12 @@
 	<%! int memi = 0; %>
 </body>
 </html>
-'''
 
-9. '''
+
+
+"""
+9.
+"""
 <%@page import="java.util.AbstractCollection"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
@@ -169,9 +195,12 @@
 	지금 시각은 <%= new java.util.Date() %> 입니다.
 </body>
 </html>
-'''
 
-10. '''
+
+
+"""
+10.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -197,9 +226,13 @@
 	-3의 절대값은 <%= abs(-3) %>이다.
 </body>
 </html>
-'''
 
-11. '''
+
+
+
+"""
+11.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <%@ page info="page 지시자를 다루는 예제 페이지" %>
@@ -214,9 +247,12 @@
 &lt;%@ page info="page 지시자를 다루는 예제 페이지" %&gt;
 </body>
 </html>
-'''
 
-12. '''
+
+
+"""
+12.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR" %>
 <!DOCTYPE html>
@@ -231,9 +267,12 @@
 	현재 시각 : <%= new Date().toLocaleString() %>
 </body>
 </html>
-'''
 
-13. '''
+
+
+"""
+13.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 
@@ -249,9 +288,12 @@
 	영어로 [<%= str[2] %>]이다.
 </body>
 </html>
-'''
 
-14. '''
+
+
+"""
+14.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 
@@ -268,9 +310,12 @@
 	exception.toString() : <%= exception.toString() %>
 </body>
 </html>
-'''
 
-15. '''
+
+
+"""
+15.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -287,9 +332,12 @@
 	<%@ include file="footer.html" %>
 </body>
 </html>
-'''
 
-16. '''
+
+
+"""
+16.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -302,12 +350,13 @@
 	<h2><font color=blue>JSP 지시자 예제</font></h2>
 </body>
 </html>
-'''
 
-17. '''
+
+
+"""
+17.
+"""
 <%@ page contentType="text/html; charset=EUC-KR" %>
 <center>
 <font color=red>Copyright (주)Infinity Books</font>
 </center>
-'''
-
