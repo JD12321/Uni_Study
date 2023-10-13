@@ -1,5 +1,7 @@
+"""
 main.py
 """
+
 import csv
 import matplotlib.pyplot as plt
 
@@ -66,10 +68,13 @@ def show_chart(x_data, data1, data2):
 result = get_temp_data()
 show_chart(result['x_data'], result['max_data'], result['min_data'])
 show_chart([1, 2, 3, 4, 5], [10, 20, 30, 40, 50], [20, 30, 40, 50, 60])
-"""
 
+
+
+"""
 exam_1013_01_data.py
 """
+
 import csv
 import matplotlib.pyplot as plt
 
@@ -99,11 +104,13 @@ def display_chart(data):
 
     plt.plot(data)
     plt.show()
+
+
+
 """
-
-
 exam_1013_01.py
 """
+
 from exam_1013_01_data import get_temp_data
 from exam_1013_01_data import display_chart
 
@@ -111,4 +118,3 @@ from exam_1013_01_data import display_chart
 temp_data = get_temp_data()
 print(temp_data)
 display_chart(temp_data)
-"""
