@@ -92,8 +92,6 @@
 </body>
 </html>
 
-![ex03 실행 결과](https://github.com/JD12321/1-2-ME/assets/127118453/4fac4ee2-bfb5-411c-8954-d9e06d083d60)
-
 
 
 """
@@ -150,7 +148,7 @@
 </body>
 </html>
 
-![ex05 실행 결과](https://github.com/JD12321/1-2-ME/assets/127118453/1ab05187-d882-4f85-b54d-a31e96dc04fa)
+
 
 """
 6.
