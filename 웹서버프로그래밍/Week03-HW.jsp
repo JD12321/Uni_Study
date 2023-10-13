@@ -1,4 +1,6 @@
-1. '''
+"""
+1.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -38,9 +40,12 @@
 	 
 </body>
 </html>
-'''
 
-2. '''
+
+
+"""
+2.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -60,9 +65,12 @@
 	
 </body>
 </html>
-'''
 
-3. '''
+
+
+"""
+3.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
     
@@ -83,11 +91,14 @@
 	 --%>
 </body>
 </html>
-'''
+
 ![ex03 실행 결과](https://github.com/JD12321/1-2-ME/assets/127118453/4fac4ee2-bfb5-411c-8954-d9e06d083d60)
 
 
-4. '''
+
+"""
+4.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 
@@ -101,9 +112,12 @@
 
 </body>
 </html>
-'''
 
-5. '''
+
+
+"""
+5.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
     
@@ -135,11 +149,12 @@
 	 --%>
 </body>
 </html>
-'''
+
 ![ex05 실행 결과](https://github.com/JD12321/1-2-ME/assets/127118453/1ab05187-d882-4f85-b54d-a31e96dc04fa)
 
-
-6. '''
+"""
+6.
+"""
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -160,4 +175,3 @@
 	1부터 100까지의 합은 <%= total %>이다.
 </body>
 </html>
-'''
