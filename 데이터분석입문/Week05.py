@@ -1,4 +1,6 @@
+"""
 1. 
+"""
 import matplotlib.pyplot as plt
 
 x_data = [1, 2, 3, 4, 5]
@@ -16,7 +18,10 @@ plt.plot(x_data, data_y3)
 plt.show()
 
 
+
+"""
 2.
+"""
 import csv
 import matplotlib.pyplot as plt
 
@@ -83,7 +88,10 @@ show_chart(result['x_data'], result['max_data'], result['min_data'])
 show_chart([1,2,3,4,5], [10,20,30,40,50], [20,30,40,50,60])
 
 
+
+"""
 3.
+"""
 import matplotlib.pyplot as plt
 import random
 
