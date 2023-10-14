@@ -1,4 +1,6 @@
-1. '''
+"""
+1.
+"""
 package homework01;
 
 public class ch101 {
@@ -11,8 +13,12 @@ public class ch101 {
 		System.out.println(total);
 	}
 }
-'''
-2. '''
+
+
+
+"""
+2.
+"""
 package homework01;
 
 import java.util.*;
@@ -36,8 +42,12 @@ public class ch102 {
 		
 	}
 }
-'''
-3. '''
+
+
+
+"""
+3.
+"""
 package homework01;
 
 import java.util.*;
@@ -73,8 +83,12 @@ public class ch103 {
 		
 	}
 }
-'''
-4. '''
+
+
+
+"""
+4.
+"""
 package homework02;
 
 import java.util.*;
@@ -139,8 +153,12 @@ public class ch201 {
 		s.close();
 	}
 }
-'''
-5. '''
+
+
+
+"""
+5.
+"""
 package homework03;
 
 import java.util.*;
@@ -190,8 +208,12 @@ public class ch301 {
 		s.close();
 	}
 }
-'''
-6. '''
+
+
+
+"""
+6.
+"""
 package homework04;
 
 import java.util.*;
@@ -259,4 +281,3 @@ public class ch401 {
 		s.close();
 	}
 }
-'''
