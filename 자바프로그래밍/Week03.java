@@ -1,4 +1,6 @@
-1. '''
+"""
+1.
+"""
 package homework;
 
 import java.util.*;
@@ -35,9 +37,12 @@ public class MyProfile02 {
 		
 	}
 }
-'''
 
-2. '''
+
+
+"""
+2.
+"""
 package homework;
 
 import java.util.*;
@@ -57,9 +62,12 @@ public class MyProfile03 {
 		
 	}
 }
-'''
 
-3. '''
+
+
+"""
+3.
+"""
 package homework;
 
 import java.util.*;
@@ -83,9 +91,12 @@ public class MyProfile04 {
 	}
 
 }
-'''
 
-4. '''
+
+
+"""
+4.
+"""
 package homework;
 
 import java.util.*;
@@ -116,4 +127,3 @@ public class MyProfile05 {
         }
     }
 }
-'''
