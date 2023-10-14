@@ -1,4 +1,6 @@
-1. '''
+"""
+1.
+"""
 package homework;
 
 import java.util.*;
@@ -37,9 +39,12 @@ public class ch01 {
 
 	}
 }
-'''
 
-2. '''
+
+
+"""
+2.
+"""
 package homework;
 
 import java.util.*;
@@ -76,9 +81,12 @@ public class ch02 {
 	}
 
 }
-'''
 
-3. '''
+
+
+"""
+3.
+"""
 package homework;
 
 import java.util.*;
@@ -122,9 +130,12 @@ public class ch03 {
 		}
 	}
 }
-'''
 
-4. '''
+
+
+"""
+4.
+"""
 package homework;
 
 import java.util.*;
@@ -164,9 +175,12 @@ public class ch04 {
 
 	}
 }
-'''
 
-5. '''
+
+
+"""
+5.
+"""
 package homework;
 
 import java.util.*;
@@ -209,4 +223,3 @@ public class ch05 {
 
 	}
 }
-'''
