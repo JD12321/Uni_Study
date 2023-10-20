@@ -12,7 +12,7 @@ public class ex01 {
 
 		System.out.println("== 축구게임을 시작합니다 ==");
 
-		int count = 11;
+		int count = 1;
 		int me = 0, cpt = 0;
 
 		while (true) {
@@ -87,21 +87,21 @@ public class ex01 {
 						count++;
 					}
 			}
-			if (count == 11) {
+			if (count == 10) {
 				if (me > cpt) {
 					System.out.println("\n나는 " + me + "골," + "컴퓨터는 " + cpt + "골을 넣어 내가 이겼습니다.");
 					break;
 				} else if (cpt > me) {
 					System.out.println("\n나는 " + me + "골," + "컴퓨터는 " + cpt + "골을 넣어 컴퓨터가 이겼습니다.");
 					break;
-				}
-			} else if (count > 10 && cpt == me) {
-				if (count % 2 != 0) {
+				} else
 					System.out.println("동점입니다. 1번씩 더 공을 차서 승부를 결정합니다.");
+			} else if (count > 10) {
+				if (me != cpt) {
 					if (me > cpt) {
 						System.out.println("\n나는 " + me + "골," + "컴퓨터는 " + cpt + "골을 넣어 내가 이겼습니다.");
 						break;
-					} else if (cpt > me) {
+					} else {
 						System.out.println("\n나는 " + me + "골," + "컴퓨터는 " + cpt + "골을 넣어 컴퓨터가 이겼습니다.");
 						break;
 					}
