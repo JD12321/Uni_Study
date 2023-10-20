@@ -13,7 +13,7 @@ public class ex01 {
 		System.out.println("== 축구게임을 시작합니다 ==");
 
 		int count = 1;
-		int me = 5, cpt = 5;
+		int me = 0, cpt = 0;
 
 		while (true) {
 			if (count % 2 == 0) {
@@ -95,8 +95,9 @@ public class ex01 {
 					System.out.println("\n나는 " + me + "골," + "컴퓨터는 " + cpt + "골을 넣어 컴퓨터가 이겼습니다.");
 					break;
 				}
-			} else if (cpt > 4 && me > 4) {
+			} else if (count > 11 && cpt == me) {
 				if (count % 2 != 0) {
+					System.out.println("동점입니다. 1번씩 더 공을 차서 승부를 결정합니다.");
 					if (me > cpt) {
 						System.out.println("\n나는 " + me + "골," + "컴퓨터는 " + cpt + "골을 넣어 내가 이겼습니다.");
 						break;
