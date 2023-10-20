@@ -18,12 +18,6 @@ public class ch01 {
 		Scanner s = new Scanner(System.in);
 		
 		while(true) {
-			for(int i=0; i<5; i++) {
-				for(int j=0; j<5; j++) {
-					if (map[i][j] != 1)
-						map[i][j] = 0;
-				}
-			}
 			map[y][x] = 8; //주인공 위치
 			//현재 맵 상황을 화면에 출력
 			for(int i=0; i<5; i++) {
@@ -32,6 +26,8 @@ public class ch01 {
 				}
 				System.out.println();
 			}
+			
+			map[y][x] = 0;
 			
 			System.out.print("상(1), 하(2), 좌(3), 우(4)를 입력하세요 >> ");
 			int input = s.nextInt();
@@ -83,7 +79,7 @@ public class ch01 {
 				System.out.println("입력 오류");
 			
 			if (x==4 && y==4) {
-				System.out.println("모적지에 도착했습니다.");
+				System.out.println("목적지에 도착했습니다.");
 				System.out.println("총 " + count + "번 만에 목적지에 도착했습니다.");
 				break;
 			}
