@@ -2,7 +2,7 @@ package zombie;
 
 import java.util.*;
 
-public abstract class Unit {
+public class Unit {
 	Random r = new Random();
 	String name;
 	int pos;
@@ -26,6 +26,4 @@ public abstract class Unit {
 		System.out.println(name + "이(가) 오른쪽으로 움직여서 현재 위치는 " + pos + "입니다.");
 	}
 	
-	public abstract void move();
-
 }
